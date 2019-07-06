@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- ===============================Cascade Style Sheet========================================= -->
+
+<style>
+
+body { background: url(BC2.gif); background-size: cover; text-align:center;font-family:monospace;}
+
+
+li{float: left; border-right:1px solid #f0f8ff;}
+li:last-child {border-right: 0px }
+ul {list-style-type: none; overflow: hidden; position: relative; display:table; margin:0 auto;}
+    
+#myDIV {display:none; color:#fff; margin-right: 5px;opacity: 0.5;}
+    
+#back { width: 100px; font-size: 14px; padding: 10px; border: none; background: #c3b626; color: #fff; opacity: 0.6; cursor: pointer;border-radius: 50%; display:table; margin:0 auto;margin-right: 9px;margin-left: 9px;font-family:monospace;}
+    
+#back:hover{ background: #c3b626; color: white;  opacity: 0.10;}
+
+
+    
+</style>
+ </head>
+<!-- ===============================Content========================================= -->
+    
+<body>
+<div ><img src="HA3.png" style="margin-bottom: 10px; margin-top: 290px"></div>
+<strong><p style="position: relative;font-size:20px;color:aliceblue; opacity: 0.5; margin-bottom: 30px">Computer Information System senior at Imam Abdulrahman bin Faisal University</p><strong>
+<!-- ===============================list========================================= -->
+<ul> <strong>
+    
+<!-- Bar--------------------------------------------->
+<li><button id="back" ><a href="Projects.html" style="text-decoration: none; color: white"><strong>Projects</strong></a></button></li>
+<li><button id="back" ><a href="https://github.com/HananOmar4/Resume/blob/master/Hanan%20Omar%20Alamoudi%20CV.pdf" style="text-decoration: none;color: white";><strong>Resume</strong></a></button></li>
+<li><button id="back" onclick="myFunction()"><strong>Contact</strong></button></li>
+
+</strong>
+</ul> 
+           
+<div id="myDIV">
+<table style="margin-left:auto; margin-right:auto; margin-top:10px">
+<tr>
+<td><img src="phone.png" height="25px" width="35px"></td>
+<td style="padding-left:0px">0569901972</td>
+</tr>
+
+<tr>
+<td><img src="mail.png" height="15px" width="20px"></td>
+<td>Alamoudi_h_4@hotmail.com</td>
+</tr>
+
+</table>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+</body>
+</html>
+
+
+
+
+
